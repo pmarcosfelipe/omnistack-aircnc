@@ -12,6 +12,15 @@ function App() {
           Ofereça <strong>spots</strong> para programadores e encontre{' '}
           <strong>talentos</strong> para sua empresa.
         </p>
+
+        <form>
+          <label htmlFor="e-mail">E-MAIL *</label>
+          <input type="email" id="email" placeholder="Seu melhor e-mail" />
+
+          <button type="submit" className="btn">
+            Entrar
+          </button>
+        </form>
       </div>
     </div>
   );
